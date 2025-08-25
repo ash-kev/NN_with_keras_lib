@@ -35,7 +35,7 @@ def convolutional_model():
 	model.add(Conv2D(16,(5,5),strides=(1,1),activation='relu')) #convolutional layer with kernel_size = 5*5 and stride = 1*1
 	model.add(MaxPooling2D(pool_size=(2,2),strides=(2,2)))
 
-#ADDING SECOND OF CONVOLUTIONAL AND POOLING LAYER
+#ADDING SECOND SET OF CONVOLUTIONAL AND POOLING LAYER
 	model.add(Conv2D(8,(2,2),strides=(1,1),activation='relu'))
 	model.add(MaxPooling2D(pool_size=(2,2),strides=(2,2)))
 
